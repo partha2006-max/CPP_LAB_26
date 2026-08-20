@@ -3,9 +3,9 @@
 #include<stdio.h>
 int main()
 {
-    int a, b, c, sum;
+    int d, b, c, sum;
     printf("Enter value of a: ");
-    scanf("%d", &a);
+    scanf("%d", &d);
 
     printf("Enter value of b: ");
     scanf("%d", &b);
@@ -13,7 +13,7 @@ int main()
     printf("Enter value of c: ");
     scanf("%d", &c);
 
-    sum = a + b + c;
+    sum = d + b + c;
     printf("Sum of a, b & c is : %d""\n", sum);
     return 0;
 }
